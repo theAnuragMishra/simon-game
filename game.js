@@ -60,7 +60,7 @@ else{
     playSound("wrong")
     $("body").addClass("game-over");
     setTimeout(function (){$("body").removeClass("game-over")}, 200);
-    $("h1").text("Game Over, Press Any Key To Restart");
+    $("h1").text("Game Over at level "+(level-1) + ", Press Any Key To Restart");
     startOver();
 }
 }
