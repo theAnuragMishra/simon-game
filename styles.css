@@ -57,4 +57,11 @@ body {
   position: fixed;
   right: 40px;
   top: 5px;
+
+}
+
+.how-to-play a{
+  color: white;
+  /*text-decoration: none;*/
+  cursor: pointer;
 }
